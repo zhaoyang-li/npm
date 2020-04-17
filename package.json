@@ -1,5 +1,5 @@
 {
-  "name": "swagger-api",
+  "name": "@zhaoyang-li/swagger-api",
   "version": "1.0.0",
   "description": "根据swagger.json生成api",
   "main": "index.js",

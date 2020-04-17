@@ -8,7 +8,10 @@
 export const {{&methodName}} = function(parameters = {}) {
 const domain = parameters.$domain ? parameters.$domain : getDomain()
 const method = '{{toLowerCase method}}'
-let path = '{{&path}}', body, queryParameters = {}, form = {}
+let path = '{{&path}}'
+let body
+let queryParameters = {}
+let form = {}
 
 {{#parameters}}
     {{#isQueryParameter}}

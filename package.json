@@ -1,0 +1,37 @@
+{
+  "name": "swagger-api",
+  "version": "1.0.0",
+  "description": "根据swagger.json生成api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoyang-li/swagger-api.git"
+  },
+  "keywords": [
+    "swagger",
+    "js",
+    "vue",
+    "codegen"
+  ],
+  "author": "arthur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhaoyang-li/swagger-api/issues"
+  },
+  "homepage": "https://github.com/zhaoyang-li/swagger-api#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "js-beautify": "^1.6.12",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  }
+}
